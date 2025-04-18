@@ -7,7 +7,6 @@ const HomePage: React.FC = () => {
       <p className="text-gray-700">
         This is the home page. Content will be added soon.
       </p>
-      {/* Chúng ta sẽ thêm các section như sách nổi bật, khuyến mãi ở đây sau */}
     </div>
   )
 }

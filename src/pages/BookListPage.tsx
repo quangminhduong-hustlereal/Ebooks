@@ -1,4 +1,3 @@
-// src/pages/BookListPage.tsx
 import React from 'react'
 
 interface Book {
