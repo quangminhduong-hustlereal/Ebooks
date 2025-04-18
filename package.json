@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "lint": "eslint .",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "format": "prettier --write \"./**/*.{js,jsx,ts,tsx,json,css,md}\"",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -44,6 +45,7 @@
     "globals": "^16.0.0",
     "postcss": "^8.5.3",
     "prettier": "^3.5.3",
+    "prettier-plugin-tailwindcss": "^0.6.11",
     "shadcn-ui": "^0.9.5",
     "tailwindcss": "^4.1.4",
     "typescript": "~5.7.2",
